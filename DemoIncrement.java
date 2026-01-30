@@ -6,7 +6,7 @@ public class DemoIncrement {
         int x = 3;
         int y = ++x + 5;
         int p = 3;
-        ++p;
+        p++;
         int q = p + 5; 
 
         System.out.print("a: " + a);
@@ -17,7 +17,7 @@ public class DemoIncrement {
         System.out.println(", q: " + q);
 
         // Replace the xxxxx in the following with the correct term
-        System.out.println("i++ means before-increment");
-        System.out.println("++i means after-increment");
+        System.out.println("i++ means pre-increment");
+        System.out.println("++i means post-increment");
     }
 }
